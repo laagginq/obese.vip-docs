@@ -1,15 +1,37 @@
-/* Dark mode styles */
+/* dark-theme.css */
 body {
     background-color: #121212;
     color: #e0e0e0;
+    font-family: Arial, sans-serif;
 }
 
 a {
     color: #80cbc4;
+    text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-/* Add more custom styles as needed */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+}
+
+code, pre {
+    background-color: #2d2d2d;
+    color: #dcdcdc;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+pre {
+    overflow-x: auto;
+    padding: 10px;
+}
+
+blockquote {
+    border-left: 4px solid #ff808b;
+    padding-left: 10px;
+    color: #e0e0e0;
+}
