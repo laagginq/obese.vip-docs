@@ -51,5 +51,25 @@ local Example = ObeseAddons:Section({Name = "This is an example addon title", Si
 
 Example:Toggle({Name = "Test print", Flag = "ToggleFlag1", Def = true, Callback = function(v) 
     print(v)
-end
+end})
+
+Example:Keybind({Name = "Test Keybind", Flag = "KeybindFlag1", Default = Enum.KeyCode.J, Callback = function(v) 
+    print(v)
+end})
+
+Example:Slider({Name = "Test Slider", Flag = "SliderFlag1", Suffix = " stud(s)", Min = 0, Max = 100, Default = 50, Decimals = 0.1, Callback = function(v)
+    print(v)
+end})
+
+Example:Button({Name = "Text Button", Callback = function()
+    print("Button clicked")
+end})
+
+Example:List({Name = "Test Dropdown", Flag = "DropdownFlag1", Options = {"1","2","3","a","b","c"}, Default = "1", CallBack = function(v)
+	print(v)		
+end})
+
+Example:Textbox({Name = "Test Textbox", Flag = "TextBoxFlag1", Def = "", Callback = function(v)
+    print(v)
+end})
 ```
