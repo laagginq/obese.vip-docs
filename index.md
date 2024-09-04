@@ -73,7 +73,3 @@ Example:Textbox({Name = "Test Textbox", Flag = "TextBoxFlag1", Def = "", Callbac
     print(v)
 end})
 ```
-
-<head>
-    <link rel="stylesheet" href="/assets/css/style.css">
-</head>
