@@ -1,0 +1,15 @@
+/* Dark mode styles */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+a {
+    color: #80cbc4;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Add more custom styles as needed */
